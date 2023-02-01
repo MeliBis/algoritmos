@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: ;
+}
+.container{
+    width: 60%;
+    height: 900px;
+    background-color: aqua;
+    margin: 0 auto;
+}
