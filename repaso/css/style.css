@@ -47,12 +47,25 @@ nav ul li a{
     float: left;
     width: calc(80% - 80px ) ;
     min-height: 650px;
-    background-color: peachpuff;
+    background-color: brown;
     border-bottom: 10px solid #fff;
     border-right: 10px solid #fff;
     padding: 20px;
 }
-
+.article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+.article h3{
+    font-size: 25px;
+}
 aside{
     width: calc(20% - 20px);
     min-height: 650px;
