@@ -31,8 +31,9 @@ function cuadrado(numero){
    
     for (let i = 0; i < (numero-2); i++) {
         contenido="*";
-        for(let x=0; x< (numero-2);x++){
-            contenido += ""
+
+        for(let x=0; x<(numero-2);x++){
+            contenido += " "
         }
     contenido += "*"
     dibujo += contenido + "\n"
