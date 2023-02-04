@@ -18,7 +18,7 @@ function invertir(numero){
                     .split('')
                     .reverse()
                     .join('')
-)
+                    )*Math.sign(numero)
    return invertido;
 }
-console.log(invertir(85));
+console.log('el numero invertido es ', invertir(85));
